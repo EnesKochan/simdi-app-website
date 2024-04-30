@@ -1,0 +1,55 @@
+
+#header .text_content h4 {
+    font-family: 'omnes_semi_bold';
+    font-size: 26px;
+    text-align: center;
+}
+#header .text_content h5 {
+    font-family: 'omnes_light';
+    font-size: 15px;
+    color: #ACACAC;
+    text-align: center;
+}
+#header .header_frame {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#des_title h5 {
+    display: flex;
+    font-family: 'omnes_semi_bold';
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+    width: 92%;
+    margin: auto;
+    margin-top: 40px;
+    align-items: flex-start;
+}
+#description .des_content {
+    font-family: 'omnes_light';
+    font-weight: bolder;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 15px;
+    color: #686868;
+    font-weight: 600;
+}
+
+/*UPDATE TEXT*/
+
+#update h4{
+    font-size: 20px;
+    font-family: 'omnes_light';
+    text-decoration: none;
+    list-style: none;
+    color: #686868;
+
+}
+#footer #bottom_footer #social {
+    flex-direction: column;
+}
+#footer #top_footer .info h2 {
+    text-align: center;
+}

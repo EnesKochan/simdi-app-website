@@ -1,0 +1,42 @@
+
+#player .video_slide a {
+    top: -82px;
+    font-size: 25px;
+
+    
+}
+#person .persons {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#person .persons .card {
+    min-height: 550px;
+}
+#person .persons .card .image-content, #person .persons .card .card-content {
+    padding: 0px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#person .persons .card .card-image {
+    margin-top: -100px;
+    width: 200px;
+    height: 200px;
+}
+#person .text .title h4 {
+    font-size: 50px;
+}
+#person .text .title h4 span {
+    font-size: 50px;
+}
+#person .text .content {
+    width: 90%;
+}
+.material-symbols-outlined {
+    font-size: 20px;
+}
+
+
+#footer #top_footer .download_buttons {
+    padding: 0px;
+}

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <link rel="shortcut icon" type="x-icon" href="images/logo/logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şimdi | Bayi Başvurusu</title>
+    <meta name="description" content="Şimdi Website">
+    
+    <!--E MAIL JS SCRIPT-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('KEYS');
+        })();
+    </script>
+    <script src="js/script.js" type="text/javascript"></script>
+
+    <!--css-->
+    <link rel="stylesheet" href="css/basvuru_css/basvuru.css">
+    <!--Responsive design css-->
+    <link rel="stylesheet" media="(max-width:1370px)" href="css/basvuru_css/xxl.css">
+    <link rel="stylesheet" media="(max-width:1180px)" href="css/basvuru_css/xl.css">
+    <link rel="stylesheet" media="(max-width:925px)" href="css/basvuru_css/l.css">
+    <link rel="stylesheet" media="(max-width:750px)" href="css/basvuru_css/m.css">
+    <link rel="stylesheet" media="(max-width:650px)" href="css/basvuru_css/sm.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/basvuru_css/s.css">
+
+    <!--===== DROPDOWN ARROW'S CSS =====-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--AOS Library-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!--HEADER-->
+    <section id="title" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">
+        <a href="index.html">
+            <img draggable="false" src="images/logo/title.png" alt="index.html">
+        </a>
+    </section>
+
+    <!--HEADER CONTENT-->
+    <header id="header">
+        <div class="header_frame">
+            <div class="images">
+                <img draggable="false" class="white_bag" src="images/bag/simdi_white_bag.png" alt="">
+                <img draggable="false" class="green_bag" src="images/bag/simdi_green_bag.png" alt="">
+            </div>
+            <div class="text_content">
+                <h4>İşletme / Bayi Ön Başvuru</h4>
+                <h5>İşletme / Bayi başvurusu yapmak için aşağıdaki bilgileri doldurunuz</h5>
+            </div>
+        </div>
+    </header>
+    <!--FORM CONTENT-->
+    <form id="contact-form" action="" method="POST">
+        <div class="title">
+            <h5>Kişisel Bilgiler</h5>
+        </div>
+        <div class="text only">
+            <h5>Ad Soyad</h5>
+            <h6>* Tüm alanların doldurulması zorunludur.</h6>
+        </div> 
+        <input type="text" id="size" name="Isim" placeholder="Örn. Ahmet GÖRGÖZ">
+        <div class="text only">
+            <h5>Cep Telefonu</h5>
+        </div>
+        <input type="text" id="size" name="Telefon" placeholder="Örn.   X (XXX) XXX XX XX">
+
+        <div class="text only">
+            <h5>E-Posta Adresi</h5>
+        </div>
+        <input type="email" id="size" name="Email" placeholder="Örn. ahmetgrgz@hotmail.com">
+
+        <div class="text only">
+            <h5>Ünvan</h5>
+        </div>
+        <input type="text" id="size" name="Unvan" placeholder="Örn. Yönetici">
+        <div class="title">
+            <h5>İşletme Bilgileri</h5>
+        </div>
+        <div class="dropdown">
+            <div class="first">
+                <div class="text">
+                    <h5>İşletme Tipi</h5>
+                </div>
+                <div class="select-box">
+                    <div class="select-option">
+                        <i class="bx bx-chevron-down"></i>
+                        <input type="text" placeholder="Seçiniz" id="soValue" name="IsletmeTipi" readonly>
+                    </div>
+                    <div class="content">
+                        <ul class="options">
+                            <li>Bireysel</li>
+                            <li>Kurumsal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="second">
+                <div class="text">
+                    <h5>Satıcı Tipi</h5>
+                </div>
+                <div class="select-box1">
+                    <div class="select-option1">
+                        <i class="bx bx-chevron-down"></i>
+                        <input type="text" placeholder="Seçiniz" id="soValue1" name="SaticiTipi" readonly>
+                    </div>
+                    <div class="content1">
+                        <ul class="options1">
+                            <li>B2C</li>
+                            <li>B2B</li>
+                            <li>B2G</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="group">
+            <div class="first">
+                <div class="text">
+                    <h5>İşletme Telefon Numarası</h5>
+                </div>
+                <input type="text" id="size" name="IsletmeTelefon"  placeholder="Örn.   X (XXX) XXX XX XX">
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="first">
+                <div class="text">
+                    <h5>İşletme Türü</h5>
+                </div>
+                <div class="select-box2">
+                    <div class="select-option2">
+                        <i class="bx bx-chevron-down"></i>
+                        <input type="text" placeholder="Seçiniz" id="soValue2" name="IsletmeTuru" readonly>
+                    </div>
+                    <div class="content2">
+                        <ul class="options2">
+                            <li>Ticaret İşletmeleri</li>
+                            <li>Hizmet İşletmeleri</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="second">
+                <div class="text">
+                    <h5>Şube Sayısı</h5>
+                </div>
+                <div class="select-box3">
+                    <div class="select-option3">
+                        <i class="bx bx-chevron-down"></i>
+                        <input type="text" placeholder="Seçiniz" id="soValue3" name="SubeSayisi" readonly>
+                    </div>
+                    <div class="content3">
+                        <ul class="options3">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li>10+</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="dropdown" class="dropdown">
+            <div class="first">
+                <div class="text only">
+                    <h5>Hangi ürün kategorisinde satış yapıyorsunuz?</h5>
+                </div>
+                <div class="select-box4">
+                    <div class="select-option4">
+                        <i class="bx bx-chevron-down"></i>
+                        <input type="text" placeholder="Seçiniz" id="soValue4" name="Kategori" readonly>
+                    </div>
+                    <div class="content4">
+                        <ul class="options4">
+                            <li>Elektronik</li>
+                            <li>Oyun Konsolu Aksesuarları</li>
+                            <li>Beyaz Eşya Isıtma & Soğutma</li>
+                            <li>Pet Shop</li>
+                            <li>Otomotiv & Motosiklet</li>
+                            <li>Ev, Yaşam ve Mobilya</li>
+                            <li>Kozmetik ve Sağlık</li>
+                            <li>Hobi & Oyucak Müzik Aletleri</li>
+                            <li>Süper Market ve Yapı Market</li>
+                            <li>Eczane</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="group">
+            <div class="first">
+                <div class="text">
+                    <h5>Tabela Adı</h5>
+                </div>
+                <input type="text" id="size" name="TabelaAdi"  placeholder="Örn.   X (XXX) XXX XX XX">
+            </div>
+            <div class="second">
+                <div class="text">
+                    <h5>Vergi</h5>
+                </div>
+                <input type="text" id="size" name="Vergi"  placeholder="Örn.   X (XXX) XXX XX XX">
+            </div>
+        </div>
+        <div class="group">
+            <div class="first">
+                <div class="text">
+                    <h5>Şirket Adı</h5>
+                </div>
+                <input type="text" id="size" name="SirketAdi" placeholder="Örn. Bireysel Bilişim">
+
+            </div>
+            <div class="second">
+                <div class="text">
+                    <h5>Şirket Ünvanı</h5>
+                </div>
+                <input type="text" id="size" name="SirketUnvani" placeholder="Örn. Umut İnşaat Otomotiv Sanayi A.Ş.">
+            </div>
+        </div>
+        <div class="text only">
+            <h5>Şirket Adresi</h5>
+        </div>
+        <textarea name="SirketAdresi" id="msj_area" placeholder="Adres giriniz" ></textarea>
+        <div class="qs">
+            <div class="text">
+                <h5>Kurye servisiniz var mı ?</h5>
+            </div>
+            <div class="tik">
+                <input type="radio" id="Var"  name="Kurye" value="Var">
+                 <label for="Var">Var</label><br>
+                <input type="radio" id="Yok" name="Kurye" value="Yok">
+                  <label for="Yok">Yok</label><br>
+            </div>
+        </div>
+        <div class="buttons">
+            <button type="submit" value="send" id="refresh">Devam Et</button>
+        </div>
+        
+    </form>
+
+    <!--FOOTER-->
+    <footer id="footer" >
+        <div id="top_footer">
+            <div class="download_buttons">
+                <a href="">
+                    <img  class="simdiden" draggable="false" src="images/simdiden_soyle.png" alt="" >
+                </a>
+                <a target="_blank" href="https://apps.apple.com/tr/app/%C5%9Fimdi/id6452083765">
+                    <img src="images/download_button/ios_button.png" alt="" >
+                </a>
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.simdi">
+                    <img src="images/download_button/play_button.png" alt="" >
+                </a>
+                <a href="#">
+                    <img src="images/download_button/huawei_button.png" alt="" >
+                </a>
+            </div>
+            <div class="info" >
+                <h4>Şimdi'yi Keşfet</h4>
+                <h2><a target="_blank" href="hakkimizda.html">
+                    Hakkımızda
+                </a></h2>
+                <h2><a href="index.html">
+                    Kariyer
+                </a></h2>
+                <h2><a target="_blank" href="iletisim.html">
+                    İletişim
+                </a></h2>
+            </div>
+            <div class="info" >
+                <h4>Yardım</h4>
+                <h2><a target="_blank" href="sss.html">
+                    Sıkça sorulan sorular
+                </a></h2>
+                <h2><a target="_blank" href="kullanim.html">
+                    Kullanım koşulları
+                </a></h2>
+                <h2><a target="_blank" href="gizlilik.html">
+                    Gizlilik politikası
+                </a></h2>
+                <h2><a href="">
+                    Çerez politikası
+                </a></h2>
+                <h2><a target="_blank" href="korunma.html">
+                    Kişisel verilerin korunması
+                </a></h2>
+                <h2><a target="_blank" href="kisisel_veri_aydinlatma.html">
+                    Kişisel verileri aydınlatma metni
+                </a></h2>
+                <h2><a target="_blank" href="ziyaret.html">
+                    İnternet Sitesi Ziyaretçilerine Yönelik Aydınlatma Metni
+                </a></h2>
+            </div>
+            <div class="info" >
+                <h4>İş Ortağımız Olun</h4>
+                <h2><a href="" class="active">
+                    Bayimiz olun
+                </a></h2>
+                <h2><a target="_blank" href="alici_olun.html">
+                    Şimdi alıcılı olun
+                </a></h2>
+                
+                
+            </div>
+        </div>
+        <div class="line"></div>
+        <div id="bottom_footer">
+            <div id="telif" >
+                <h3>Telif Hakkı © 2023 Şimdi Tüm hakları saklıdır.</h3>
+            </div>
+            <div id="social" >
+                <div class="icons">
+                    <a target="_blank" href="#">
+                        <img src="images/social_media/twitter.png" alt="">
+                    </a>
+                    <a target="_blank" href="#">
+                        <img src="images/social_media/facebook.png" alt="">
+                    </a>
+                    <a target="_blank" href="#">
+                        <img src="images/social_media/instagram.png" alt="">
+                    </a>
+                </div>
+                <div class="app_logo">
+                    <img class="logo" src="images/logo/logo.png" alt="">
+                    <img class="text" src="images/logo/logo_text.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--AOS Library-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script> 
+
+    <script src="js/dropdown.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+
+#header .text_content h4 {
+    font-family: 'omnes_semi_bold';
+    font-size: 26px;
+    text-align: center;
+}
+#header .text_content h5 {
+    font-family: 'omnes_light';
+    font-size: 15px;
+    color: #ACACAC;
+    text-align: center;
+}
+#description .des_content {
+    font-family: 'omnes_medium' !important;
+    font-weight: bolder;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 15px;
+    color: #686868;
+    font-weight: 600;
+}
+#question .content h5 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#question .content {
+    position: relative;
+    top: 0px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    background: #F6F6F6;
+    height: auto;
+    border-radius: 0px 0px 30px 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px;
+}
+#question .title img {
+    position: relative;
+    display: flex;
+    width: 68px;
+    top: 5px;
+    height: auto;
+    left: 10px;
+}
+#question .title .text {
+    margin-top: 10px;
+}
+#des_title {
+    margin-top: 0px;
+}
+#des_title h5 {
+    display: flex;
+    font-family: 'omnes_semi_bold';
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+#contact-form .text h5{
+    display: flex;
+    font-family: 'omnes_semi_bold';
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+    width: 75%;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+#description .des_content {
+    font-family: 'omnes_light';
+    font-weight: bolder;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 15px;
+    color: #686868;
+    font-weight: 600;
+}
+#contact-form .text h6 {
+    color: #505050A1;
+    font-size: 12px;
+    font-family: 'omnes_cond_light';
+    margin-right: 20px;
+}
+#footer #bottom_footer #social {
+    flex-direction: column;
+}
+#footer #top_footer .info h2 {
+    text-align: center;
+}
+
+#contactForm input {
+    height: 40px;
+}
+#contactForm .choose {
+    height: 40px;
+}
+#contactForm .choose .select {
+    padding-left: 10px;
+}
+#contactForm .text h6 {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #505050A1;
+    font-size: 9px;
+    font-family: 'omnes_cond_light';
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+#contactForm .text h5 {
+    color: #232323;
+    font-size: 20px;
+    margin: 5px;
+    font-family: 'omnes_semi_bold';
+}
+#contactForm .only {
+    margin-left: 20px !important;
+}
+#contactForm .buttons{
+    margin-top: 20px;
+}
+
+#contactForm .buttons button:disabled {
+    font-size: 20px;
+    margin-top: 20px;
+    width: 167px;
+    height: 44px;
+}
+
+#contactForm .buttons button {
+    font-size: 20px;
+    color: white;
+    background-color: #14BB52;
+    border: none;
+    border-radius: 15px;
+    width: 167px;
+    height: 44px;
+    font-family: 'omnes_medium';
+    cursor: pointer;
+    margin-top: 20px;
+
+}

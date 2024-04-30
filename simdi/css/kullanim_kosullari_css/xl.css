@@ -1,0 +1,25 @@
+
+/*UPDATE TEXT*/
+
+#update h4{
+    font-size: 27px;
+    font-family: 'omnes_light';
+    text-decoration: none;
+    list-style: none;
+    color: #686868;
+
+}
+#footer #top_footer .info h4 {
+    font-size: 22px;   
+}
+.simdiden{
+    margin-bottom: 53px !important;
+    width: 45% !important;
+}
+#footer #bottom_footer #telif h3{
+    justify-content: center;
+}
+
+#footer #top_footer .info h2 a {
+    font-size: 16px;
+}

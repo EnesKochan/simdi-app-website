@@ -1,0 +1,127 @@
+/* --mall & shop--*/
+#mall_shop{
+    flex-direction: column;
+}
+/* --mall --*/
+
+#mall_shop #mall{
+    max-width: 1532px;
+    width: 100%;
+    margin: 10px auto;
+
+}
+#mall_shop #mall .text .title{
+    padding-bottom: 5%;
+}
+#mall_shop #mall .text .content{
+    margin-bottom: 40px;
+}
+/* --shop--*/
+
+#mall_shop #shop{
+    max-width: 1532px;
+    width: 100%;
+    margin-top: 40px;
+    margin: 10px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+    background-color: #F7F7F7;
+    flex-direction: column;
+}
+#mall_shop #shop .image img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 70%;
+   
+}
+
+/*PERSON*/
+#person{
+    width: 92%;
+}
+#person .persons {
+  
+    flex-direction: column;
+}
+#person .persons .person_line2{
+    margin-top: 125px;
+}
+/*reklam*/
+#reklam{
+    width: 92%;
+}
+#reklam .poster{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    max-width: 1492px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#reklam .poster .card{
+    display: flex;
+    flex-direction: row;
+    width: 46%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 15%;
+}
+#reklam .poster .card .card_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+#reklam .poster .card .card_content img {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+}
+
+#reklam .poster .card1{
+    display: flex;
+    flex-direction: row;
+    width: 48%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 16%;
+    margin-top: -30px;
+    
+}
+#reklam .poster .card1 .card_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+#reklam .poster .card1 .card_content img {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+}
+
+/*FOOTER*/
+#footer{
+    width: 92%;
+}
+#footer #top_footer .info h2 a {
+    font-size: 20px;
+}
+#footer #top_footer .info h4 {
+    font-size: 25px;   
+}
+#footer #top_footer .info h4 {
+    padding-bottom: 5px;
+}

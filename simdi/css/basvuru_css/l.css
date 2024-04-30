@@ -1,0 +1,22 @@
+#footer #top_footer {
+    flex-direction: column;
+}
+#footer #top_footer .download_buttons img {
+    width: 30%;
+}
+.simdiden {
+    margin-bottom: 30px !important;
+    width: 55% !important;
+}
+#footer #top_footer .info{
+    padding: 5px;
+}
+#footer #top_footer .info h4{
+    align-items: center;
+}
+#footer #top_footer .info h2{
+    align-items: center;
+}
+#reklam .text h6 {
+    font-size: 45px;
+}

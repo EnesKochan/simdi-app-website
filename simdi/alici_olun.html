@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <link rel="shortcut icon" type="x-icon" href="images/logo/logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şimdi | Şimdi Alıcı Olun</title>
+    <meta name="description" content="Şimdi Website">
+
+    <!--E MAIL JS SCRIPT-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('KEYS');
+        })();
+    </script>
+    <script src="js/alici.js" type="text/javascript"></script>
+    <!--===== DROPDOWN ARROW'S CSS =====-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!--css-->
+    <link rel="stylesheet" href="css/alici_css/alici.css">
+    <!--Responsive design css-->
+    <link rel="stylesheet" media="(max-width:1515px)" href="css/hakkimizda_css/xxxl.css">
+    <link rel="stylesheet" media="(max-width:1370px)" href="css/hakkimizda_css/xxl.css">
+    <link rel="stylesheet" media="(max-width:1180px)" href="css/hakkimizda_css/xl.css">
+    <link rel="stylesheet" media="(max-width:925px)" href="css/hakkimizda_css/l.css">
+    <link rel="stylesheet" media="(max-width:750px)" href="css/hakkimizda_css/m.css">
+    <link rel="stylesheet" media="(max-width:650px)" href="css/hakkimizda_css/sm.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/hakkimizda_css/s.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <!--HEADER-->
+    <section id="title">
+        <a href="index.html">
+            <img draggable="false" src="images/logo/title.png" alt="index.html">
+        </a>
+    </section>
+    <!--HEADER CONTENT-->
+    <header id="header">
+        <div class="header_frame">
+            <div class="text_content">
+                <h4><span style="font-family: omnes_semi_bold !important;" class="green"> Şimdi</span><span class="black">Alıcı</span> <span style="font-family: 'omnes_medium';">Olun</span></h4>
+                <h5>ŞimdiAlıcı olmak için aşağıdaki formu doldurunuz.</h5>
+            </div>
+        </div>
+    </header>
+     <!--question-->
+     <div id="question">
+        <div class="title">
+            <img draggable="false" src="images/logo/logo.png" alt="">
+            <div class="text">
+                <h4>Gerekli belgeler ve bilgiler</h4>
+            </div>
+        </div>
+    </div>
+    <!--FORM CONTENT-->
+
+
+
+
+
+
+    
+    <form id="contactForm" action="" method="POST">
+        <div class="text only">
+            <h5>Ad Soyad</h5>
+            <h6>* Tüm alanların doldurulması zorunludur.</h6>
+        </div> 
+        <input type="text" id="size" name="isim" placeholder="Örn.  Ahmet GÖRGÖZ" required>
+        <div class="text only">
+            <h5>Cep Telefonu</h5>
+        </div>
+        <input type="text" id="size" name="telefon" placeholder="Örn.  X (XXX) XXX XX XX" required>
+        <div class="text only">
+            <h5>E-Posta Adresi</h5>
+        </div>
+        <input type="email" id="size" name="email" placeholder="Örn.  ahmetgrgz@hotmail.com" required>
+        <div class="text only">
+            <h5>Yaşadığınız İlçe</h5>
+        </div>
+        <input type="text" id="size" name="ilce" placeholder="Örn.  Gaziosmanpaşa" required>
+        
+        
+        
+        <div class="text only">
+            <h5>Çalışmak İstediğiniz AVM ?</h5>
+        </div>
+        <div class="choose">
+            <input  class="box" type="radio" id="Mall of İstanbul"  name="AVM" value="Mall of İstanbul">
+            <label class="select" for="Mall of İstanbul">Mall of İstanbul</label><br>
+        </div>
+        <div class="choose">
+            <input class="box" type="radio" id="Vadi İstanbul" name="AVM" value="Vadi İstanbul">
+            <label class="select" for="Vadi İstanbul">Vadi İstanbul</label><br>
+        </div>
+        <div class="choose">
+            <input class="box" type="radio" id="Kanyon" name="AVM" value="Kanyon">
+            <label class="select" for="Kanyon">Kanyon</label><br>
+        </div>
+        <div class="choose">
+            <input class="box" type="radio" id="Cevahir" name="AVM" value="Cevahir">
+            <label class="select" for="Cevahir">Cevahir</label><br>
+        </div>
+        <div class="choose">
+            <input class="box" type="radio" id="Akasya" name="AVM" value="Akasya">
+            <label class="select" for="Akasya">Akasya</label><br>
+        </div>
+        <div class="choose">
+            <input class="box" type="radio" id="Emaar" name="AVM" value="Emaar">
+            <label class="select" for="Emaar">Emaar</label><br>
+        </div>
+        <div class="choose">
+            <input class="box" type="radio" id="Çoklu AVM" name="AVM" value="Çoklu AVM">
+            <label class="select" for="Çoklu AVM">Çoklu AVM</label><br>
+        </div>
+
+        <div class="text only">
+            <h5>Günlük Ayırabileceğiniz Ortalama Saat Aralığı ?</h5>
+        </div>
+        <div class="choose">
+            <input id="1-3 saat" value="1-3 saat" class="box" type="radio"   name="saat">
+            <label for="1-3 saat" class="select" >1-3 saat</label><br>
+        </div>
+        <div class="choose">
+            <input id="3-6 saat" value="3-6 saat" class="box" type="radio" name="saat" >
+            <label for="3-6 saat" class="select" >3-6 saat</label><br>
+        </div>
+        <div class="choose">
+            <input id="6-12 saat" value="6-12 saat" class="box" type="radio"  name="saat" >
+            <label for="6-12 saat" class="select" >6-12 saat</label><br>
+        </div>
+
+        <div class="text only">
+            <h5>Aylık Ayırabileceğiniz Ortalama Gün Aralığı ?</h5>
+        </div>
+        <div class="choose">
+            <input id="1-3 iş günü" value="1-3 iş günü" class="box" type="radio"   name="aylik">
+            <label for="1-3 iş günü" class="select" >1-3 iş günü</label><br>
+        </div>
+        <div class="choose">
+            <input id="3-5 iş günü" value="3-5 iş günü" class="box" type="radio" name="aylik" >
+            <label for="3-5 iş günü" class="select" >3-5 iş günü</label><br>
+        </div>
+        <div class="choose">
+            <input id="5-15 iş günü" value="5-15 iş günü" class="box" type="radio"  name="aylik" >
+            <label for="5-15 iş günü" class="select" >5-15 iş günü</label><br>
+        </div>
+        <div class="choose">
+            <input id="30 iş günü" value="30 iş günü" class="box" type="radio"  name="aylik" >
+            <label for="30 iş günü" class="select" >30 iş günü</label><br>
+        </div>
+        
+
+        <div class="text only">
+            <h5>Tamamlanmış Eğitim Durumu ?</h5>
+        </div>
+        <div class="choose">
+            <input id="Lisans" value="Lisans" class="box" type="radio"   name="egtm">
+            <label for="Lisans" class="select" >Lisans</label><br>
+        </div>
+        <div class="choose">
+            <input id="Önlisans" value="Önlisans" class="box" type="radio" name="egtm" >
+            <label for="Önlisans" class="select" >Önlisans</label><br>
+        </div>
+        <div class="choose">
+            <input id="Lise" value="Lise" class="box" type="radio"  name="egtm" >
+            <label for="Lise" class="select" >Lise</label><br>
+        </div>
+        <div class="choose">
+            <input id="İlkokul-Ortaokul" value="İlkokul-Ortaokul" class="box" type="radio"  name="egtm" >
+            <label for="İlkokul-Ortaokul" class="select" >İlkokul-Ortaokul</label><br>
+        </div>
+        <div class="choose">
+            <input id="Devam etmekte" value="Devam etmekte" class="box" type="radio"  name="egtm" >
+            <label for="Devam etmekte" class="select" >Devam etmekte</label><br>
+        </div>
+        
+        <div class="text only">
+            <h5>Bisiklet, motor ya da aracınızı bu operasyonda konumlandırmak istiyor musunuz ?</h5>
+        </div>
+        <div class="choose">
+            <input id="Evet" value="Evet" class="box" type="radio"   name="oto">
+            <label for="Evet" class="select" >Evet</label><br>
+        </div>
+        <div class="choose">
+            <input id="Hayır" value="Hayır" class="box" type="radio" name="oto" >
+            <label for="Hayır" class="select" >Hayır</label><br>
+        </div>
+        <div class="buttons">
+            <button disabled="disabled" type="submit" value="send" id="refresh">Gönder</button>
+        </div>
+    </form>
+
+
+    <!--FOOTER-->
+    <footer id="footer">
+        <div id="top_footer">
+            <div class="download_buttons">
+                <a href="">
+                    <img class="simdiden" draggable="false" src="images/simdiden_soyle.png" alt="">
+                </a>
+                <a target="_blank" href="https://apps.apple.com/tr/app/%C5%9Fimdi/id6452083765">
+                    <img draggable="false" src="images/download_button/ios_button.png" alt="" >
+                </a>
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.simdi">
+                    <img draggable="false" src="images/download_button/play_button.png" alt="" >
+                </a>
+                <a href="#">
+                    <img draggable="false" src="images/download_button/huawei_button.png" alt="" >
+                </a>
+            </div>
+            <div class="info">
+                <h4>Şimdi'yi Keşfet</h4>
+                <h2><a target="_blank" href="hakkimizda.html">
+                        Hakkımızda
+                    </a></h2>
+                <h2><a href="index.html">
+                        Kariyer
+                    </a></h2>
+                <h2><a target="_blank" href="iletisim.html">
+                        İletişim
+                    </a></h2>
+            </div>
+            <div class="info">
+                <h4>Yardım</h4>
+                <h2><a target="_blank" href="sss.html">
+                        Sıkça sorulan sorular
+                    </a></h2>
+                <h2><a target="_blank" href="kullanim.html">
+                        Kullanım koşulları
+                    </a></h2>
+                <h2><a target="_blank" href="gizlilik.html" >
+                        Gizlilik politikası
+                    </a></h2>
+                <h2><a href="">
+                        Çerez politikası
+                    </a></h2>
+                <h2><a target="_blank" href="korunma.html">
+                        Kişisel verilerin korunması
+                    </a></h2>
+                <h2><a target="_blank" href="kisisel_veri_aydinlatma.html">
+                        Kişisel verileri aydınlatma metni
+                    </a></h2>
+                <h2><a target="_blank" href="ziyaret.html">
+                        İnternet Sitesi Ziyaretçilerine Yönelik Aydınlatma Metni
+                    </a></h2>
+            </div>
+            <div class="info">
+                <h4>İş Ortağımız Olun</h4>
+                <h2><a target="_blank" href="basvuru.html">
+                        Bayimiz olun
+                    </a></h2>
+                <h2><a href="" class="active">
+                        Şimdi alıcılı olun
+                    </a></h2>
+
+
+            </div>
+        </div>
+        <div class="line"></div>
+        <div id="bottom_footer">
+            <div id="telif" >
+                <h3>Telif Hakkı © 2023 Şimdi Tüm hakları saklıdır.</h3>
+            </div>
+            <div id="social">
+                <div class="icons">
+                    <a target="_blank" href="https://twitter.com/SimdiApp">
+                        <img draggable="false" src="images/social_media/twitter.png" alt="">
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/people/Şimdi/100095294095520/">
+                        <img draggable="false" src="images/social_media/facebook.png" alt="">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/simdiapp/">
+                        <img draggable="false" src="images/social_media/instagram.png" alt="">
+                    </a>
+                </div>
+                <div class="app_logo">
+                    <img draggable="false" class="logo" src="images/logo/logo.png" alt="">
+                    <img draggable="false" class="text" src="images/logo/logo_text.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/active_button.js"></script>
+    <script src="js/dropdown_alici.js"></script>
+
+</body>
+</html>

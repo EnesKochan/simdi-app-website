@@ -1,0 +1,59 @@
+/*tablo*/
+
+#description .tablo{
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    width: 92%;
+    margin: 10px auto;
+    align-items: center;
+    border: 2px solid #B4B4B4;
+    border-radius: 20px;
+}
+
+.tablo_name{
+    display: flex;
+    align-items: flex-start;
+    font-size: 15px;
+    width: 85%;
+    margin-top: 45px;
+}
+th{
+    font-family: 'omnes_medium';
+    font-size: 13px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+td{
+    font-family: 'omnes_cond_light';
+    font-size: 10px;
+    color: #7A7A7A;
+    
+}
+tr{
+    text-align: center;
+}
+table{
+    border-radius: 20px;
+    overflow: hidden;
+    table-layout: auto;
+
+}
+table, th, td {
+    border: 2px solid #B4B4B4;
+    border-collapse: collapse;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#footer #bottom_footer #social .app_logo {
+    justify-content: flex-end;
+}
+
+#footer #bottom_footer #telif h3 {
+    font-size: 15px;
+}
+#footer #bottom_footer {
+    margin: 0px 30px 30px 30px;
+}
+

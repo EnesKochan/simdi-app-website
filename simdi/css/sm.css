@@ -1,0 +1,99 @@
+#player .video_slide a {
+    top: -70px;
+    font-size: 20px;
+}
+#mall_shop #mall .text .title h4 {
+    font-size: 36px;
+    line-height: 35px;
+}
+#mall_shop #mall .text .title h4 span{
+    font-size: 36px;
+}
+#mall_shop #mall .text .content h2 {
+    font-size: 25px;
+}
+#mall .card-content .content {
+    color: #FFFFFF;
+    font-family: 'omnes_medium';
+    font-size: 18px;
+}
+#mall .card {
+    border-radius: 15px;
+}
+#mall_shop #shop .title h4 {
+    font-size: 36px;
+}
+#mall_shop #shop .title h4 span {
+    font-size: 36px;
+}
+#person .persons {
+    margin-bottom: 0px;
+}
+#person .text .title h4 {
+    font-size: 30px;
+}
+#person .text .title h4 span {
+    font-size: 30px;
+}
+#person .text .content h3 {
+    font-size: 22px;
+}
+#person .text .content {
+    width: 90%;
+}
+#person .persons .person_line1, #person .persons .person_line2 {
+    display: flex;
+    flex-direction: column;
+}
+#person .persons .card {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 59px auto;
+
+}
+#person .persons .person_line2 {
+    margin-top: 0px; 
+}
+#reklam .text h6 {
+    font-size: 36px;
+}
+#reklam .poster .card_line1, #reklam .poster .card_line2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+#reklam .poster .card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 15%;
+}
+#person .persons .card .card-content .description {
+    font-size: 22px;
+    padding: 2px 2px;
+}
+#reklam .poster .card1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 15%;
+}
+#footer #top_footer .download_buttons {
+    padding: 0px;
+}
+#footer #top_footer .info h2 {
+    text-align: center;
+}

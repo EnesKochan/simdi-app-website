@@ -1,0 +1,82 @@
+#description .des_content {
+    font-size: 14px;
+    padding: 20px;
+    line-height: 20px;
+}
+#question .title .text h4 {
+    font-size: 13px;
+}
+#question .title .text {
+    padding-left: 17px;
+    height: 55px;
+    border-radius: 15px;
+}
+#question .content {
+    position: relative;
+    top: 0px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    background: #F6F6F6;
+    height: auto;
+    border-radius: 0px 0px 30px 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#question .content h5{
+   font-size: 11px;
+}
+#customer_info .info .right h2 {
+    font-size: 12px;
+}
+#customer_info .info .left h2 {
+    font-size: 13px;
+    padding-right: 6px;
+}
+#customer_info .info .left {
+    width: 26%;
+    border-radius:  15px 0px 0px 15px ;
+
+}
+#customer_info .info .right {
+    padding-right: 10px;
+    border-radius: 0px 15px 15px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+table .iki {
+    border-radius: 0px 10px 10px 0px !important;
+}
+table .bir {
+    border-radius: 10px 0px 0px 10px !important;
+}
+th {
+    font-size: 10px !important;
+    line-height: 16px !important;
+    padding: 3px !important;
+}
+td {
+    font-size: 6px !important;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+#question .title img {
+    position: relative;
+    display: flex;
+    width: 45px;
+    top: 15px !important;
+    height: 45px;
+    left: 10px;
+}
+#footer #bottom_footer #social .app_logo {
+    justify-content: flex-end;
+}
+
+#footer #bottom_footer #telif h3 {
+    font-size: 15px;
+}
+#footer #bottom_footer {
+    margin: 0px 30px 30px 30px;
+}
+

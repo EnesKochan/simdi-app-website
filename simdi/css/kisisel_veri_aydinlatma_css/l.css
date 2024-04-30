@@ -1,0 +1,82 @@
+#header .header_frame {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+#description .des_content {
+
+    font-size: 20px;
+
+}
+#question .content h5 {
+    font-size: 20px;
+}
+#question .content{
+  position: relative;
+    top: 0px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background: #F6F6F6;
+    height: auto;
+    border-radius: 0px 0px 30px 30px;
+    padding-left: 46px;
+    padding-right: 20px;
+}
+  
+#question .title .text {
+    height: 75px;
+    border-radius: 30px;
+    padding-left: 46px;
+    margin-top: 5px;
+}
+#question .title .text h4 {
+    font-size: 20px;
+}
+#customer_info .info .left h2 {
+    font-size: 22px;
+        padding-right: 6px;
+}
+#customer_info .info .right h2 {
+    font-size: 17px;
+}
+.last{
+    margin-top: 0px !important;
+    margin-left: 50%;
+    margin-right: 58%;
+}
+table, th, td {
+    table-layout: auto;
+}
+th{
+    font-size: 23px !important;
+}
+td{
+    font-size: 13px !important;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+#footer #top_footer {
+    flex-direction: column;
+}
+#footer #top_footer .download_buttons img {
+    width: 30%;
+}
+.simdiden {
+    margin-bottom: 30px !important;
+    width: 55% !important;
+}
+#footer #top_footer .info{
+    padding: 5px;
+}
+#footer #top_footer .info h4{
+    align-items: center;
+}
+#footer #top_footer .info h2{
+    align-items: center;
+}
+#reklam .text h6 {
+    font-size: 45px;
+}

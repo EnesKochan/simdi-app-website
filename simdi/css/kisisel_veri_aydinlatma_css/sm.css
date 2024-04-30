@@ -1,0 +1,68 @@
+
+#header .text_content h4 {
+    font-family: 'omnes_semi_bold';
+    font-size: 26px;
+    text-align: center;
+}
+#header .text_content h5 {
+    font-family: 'omnes_light';
+    font-size: 15px;
+    color: #ACACAC;
+    text-align: center;
+}
+#description .des_content {
+    font-size: 16px;
+    padding: 20px;
+}
+
+#question .content h5 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#question .content {
+    position: relative;
+    top: 0px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    background: #F6F6F6;
+    height: auto;
+    border-radius: 0px 0px 30px 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#question .title img {
+    position: relative;
+    display: flex;
+    width: 68px;
+    top: 5px;
+    height: auto;
+    left: 10px;
+}
+#customer_info .info .left h2 {
+    font-size: 20px;
+    padding-right: 6px;
+}
+table {
+    border: none;
+    border-radius: 30px;
+    max-width: 650px;
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 40px;
+    border-collapse: collapse;
+    padding: 30px;
+}
+th {
+    font-size: 20px !important;
+    line-height: 23px !important;
+    padding: 15px !important;
+}
+#footer #bottom_footer #social {
+    flex-direction: column;
+}
+#footer #top_footer .info h2 {
+    text-align: center;
+}

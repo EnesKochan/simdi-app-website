@@ -1,0 +1,18 @@
+#header .text_content h4 {
+    font-size: 26px;
+}
+#header .text_content h5 {
+    font-size: 15px;
+}
+
+#footer #top_footer .download_buttons {
+    padding: 0px;
+}
+
+
+#footer #bottom_footer #social {
+    flex-direction: column;
+}
+#footer #bottom_footer #telif h3{
+    font-size: 15px;
+}

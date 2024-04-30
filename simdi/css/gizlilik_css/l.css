@@ -1,0 +1,71 @@
+
+/*tablo*/
+
+#description .tablo{
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    width: 92%;
+    margin: 10px auto;
+    align-items: center;
+    border: 2px solid #B4B4B4;
+    border-radius: 20px;
+}
+
+.tablo_name{
+    display: flex;
+    align-items: flex-start;
+    font-size: 24px;
+    width: 85%;
+    margin-top: 45px;
+}
+th{
+    font-family: 'omnes_medium';
+    font-size: 23px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+td{
+    font-family: 'omnes_cond_light';
+    font-size: 13px;
+    color: #7A7A7A;
+    
+}
+tr{
+    text-align: center;
+}
+table{
+    border-radius: 20px;
+    overflow: hidden;
+    table-layout: auto;
+
+}
+table, th, td {
+    border: 2px solid #B4B4B4;
+    border-collapse: collapse;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#footer #top_footer {
+    flex-direction: column;
+}
+#footer #top_footer .download_buttons img {
+    width: 30%;
+}
+.simdiden {
+    margin-bottom: 30px !important;
+    width: 55% !important;
+}
+#footer #top_footer .info{
+    padding: 5px;
+}
+#footer #top_footer .info h4{
+    align-items: center;
+}
+#footer #top_footer .info h2{
+    align-items: center;
+}
+#reklam .text h6 {
+    font-size: 45px;
+}
